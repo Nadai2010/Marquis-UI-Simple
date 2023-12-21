@@ -20,10 +20,12 @@ function Spawn() {
 
   return (
     <>
-      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '-50px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '-40px' }}>
         <div style={{ marginRight: '10px' }}>
         </div>
-        <div style={{ display: 'flex', alignItems: 'flex-end', marginLeft: '2px' }}>
+        <p>Only Owner:</p>
+        <div style={{ display: 'flex', alignItems: 'flex-end', marginLeft: '50px' }}>
+       
           <button style={{ border: '2px solid white', padding: '5px' }} onClick={() => write()}>Spawn</button>
         </div>
       </div>

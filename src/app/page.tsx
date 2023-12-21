@@ -13,8 +13,8 @@ export default function Home() {
       <WalletBar />
       <Balance />
       <Spawn />
-      <Approve />
       <Mint />
+      <Approve />
       <Bets />
       <SetWinner />
 
