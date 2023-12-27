@@ -4,7 +4,7 @@ import { useState, useMemo } from "react";
 function Approve() {
   const { address } = useAccount();
   const [count] = useState(1);
-  const [recipient, setRecipient] = useState('0x21542c4f3ba51dbe3702e7d42064f73595196904ee32baa93cb871b2b1e11ea');
+  const [recipient, setRecipient] = useState('0x365a607578bcb62edd3f950f4f9452b627027251a82ceff4611cb9ad4e93046');
   const [amount, setAmount] = useState('100000000000000000000');
 
   const recipientInputStyle = { color: 'black' };
@@ -12,7 +12,7 @@ function Approve() {
 
   const calls = useMemo(() => {
     const tx = {
-      contractAddress: '0x0116d30283b84b826382d0115a985f71cdefd0dc7411c72dad1c0bbc9a292f5e',
+      contractAddress: '0x5029eebf9ecbda709b6d295faaa5c0962403c9b3f564bdedda906d21d19c928',
       entrypoint: 'approve',
       calldata: [recipient, amount, 0]
     };

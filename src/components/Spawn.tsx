@@ -9,7 +9,7 @@ function Spawn() {
 
   const calls = useMemo(() => {
     const tx = {
-      contractAddress: '0x21542c4f3ba51dbe3702e7d42064f73595196904ee32baa93cb871b2b1e11ea',
+      contractAddress: '0x365a607578bcb62edd3f950f4f9452b627027251a82ceff4611cb9ad4e93046',
       entrypoint: 'spawn',
       calldata: []
     };
