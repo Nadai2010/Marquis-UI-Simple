@@ -30,3 +30,8 @@ https://sepolia.voyager.online/contract/0x036adf05c823f24414a61329b76edbf1a1bc7a
 **ACTIONS**
 https://sepolia.voyager.online/contract/0x015b28d722c96642dcd299961dce126215f4b4b96cde4c51c33877d7dfcb0399
 
+actions : 0x2438fa1783f1e67b677e03ba92828bbbcebe0a6516f801d210d0a7c0a217986
+
+erc20 : 0x2b161f7bb216e9decb351a604280afcaa03f888cac462293fae8e3125d7ffa3
+
+world : 0x286505e0592e3047000a809efedcccdb98fcd4bfd17b87265f81a6a38ab61c9
