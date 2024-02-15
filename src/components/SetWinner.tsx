@@ -8,7 +8,7 @@ function SetWinner() {
 
   const calls = useMemo(() => {
     const tx = {
-      contractAddress: '0x365a607578bcb62edd3f950f4f9452b627027251a82ceff4611cb9ad4e93046',
+      contractAddress: '0x015b28d722c96642dcd299961dce126215f4b4b96cde4c51c33877d7dfcb0399',
       entrypoint: 'set_winner',
       calldata: [gameId, winner]
     };

@@ -12,7 +12,7 @@ function Mint() {
 
   const calls = useMemo(() => {
     const tx = {
-      contractAddress: '0x5029eebf9ecbda709b6d295faaa5c0962403c9b3f564bdedda906d21d19c928',
+      contractAddress: '0x2b161f7bb216e9decb351a604280afcaa03f888cac462293fae8e3125d7ffa3',
       entrypoint: 'mint_',
       calldata: [recipient, amount, 0]
     };

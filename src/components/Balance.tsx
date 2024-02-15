@@ -5,7 +5,7 @@ function Balance() {
   const { address } = useAccount();
   const args = address ? [address] : [];
   const { data, isLoading, error, refetch } = useContractRead({
-    address: '0x5029eebf9ecbda709b6d295faaa5c0962403c9b3f564bdedda906d21d19c928',
+    address: '0x2b161f7bb216e9decb351a604280afcaa03f888cac462293fae8e3125d7ffa3',
     abi: erc20ABI,
     functionName: 'balanceOf',
     args,
